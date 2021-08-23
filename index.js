@@ -188,6 +188,10 @@ checkBtn.addEventListener("click", () => {
     output.innerHTML = "Yayy! Your birthday is a palindrome.";
   } else {
     let [count, { day, month, year }] = getNearestPalindrome(date);
-    output.innerHTML = `The nearest palindrome date is ${day}-${month}-${year}, you missed by ${count} days.`;
+    if (count === 1) {
+      output.innerHTML = `The nearest palindrome date is ${day}-${month}-${year}, you missed by ${count} day.`;
+    } else {
+      output.innerHTML = `The nearest palindrome date is ${day}-${month}-${year}, you missed by ${count} days.`;
+    }
   }
 });
