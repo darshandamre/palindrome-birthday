@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  margin: 4em auto;
+  width: 80%;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+#input-date {
+  margin: 1.5em 0;
+  padding: 0.2em 0.5em;
+  font-size: 1.2rem;
+}
+
+.btn-check {
+  font-size: 1.2rem;
+  padding: 0.34em 1em;
+  cursor: pointer;
+}
